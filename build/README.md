@@ -16,3 +16,20 @@ mkdir build && cd build
 cmake ..
 make
 ./cyb3053_project2
+
+# CYB-3053 Project 2 - Memory Allocator
+
+## Features
+- Implements **First Fit**, **Best Fit**, **Worst Fit**, and **Next Fit**
+- Uses a **thread-safe** allocator with `pthread_mutex`
+- Supports `malloc()`, `calloc()`, `realloc()`, and `free()`
+- Debugged with **Valgrind**
+
+## Build & Run
+```sh
+git clone https://github.com/YOUR_USERNAME/OSProject2.git
+cd OSProject2
+mkdir build && cd build
+cmake ..
+make
+./cyb3053_project2
